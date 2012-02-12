@@ -32,7 +32,7 @@ def make_make_item(text, imgsrc, dataline):
          '<img src="/images/' + imgsrc + \
          '" width="40" height="40" class="itemimg" />' + \
          '</td><td>' + \
-         '<b>' + text + '</b><br />' + \
+         text + '<br />' + \
          dataline + \
          '</td></tr></table>' + \
          '</li>'
@@ -60,11 +60,11 @@ def gplus_get():
     for item in activities:
       text = item['object']['content'].split(".")[0] + '.'
       date = datetime.datetime.strptime(item['published'][:-5], "%Y-%m-%dT%H:%M:%S")
-      dataline = '<a href="https://plus.google.com/102085185756507251350/about">' + \
+      dataline = '<span class="time">' + \
+                 '<a href="https://plus.google.com/102085185756507251350/about">' + \
                  '+Bart Kastermans</a>' + \
                  '&nbsp;&nbsp;<a href="' + item['url'] + '">this post</a>&nbsp;' + \
-                 '<span class="time">' + \
-                 date.strftime("%A, %d %B at %H:%M") + \
+                 date.strftime("%A, %d %B") + \
                  '</span>'
 
       gplus_items.append([date, 'gplus', make_make_item(text, 'gplus.png', dataline)])
@@ -85,11 +85,11 @@ def github_get():
 
       text = item['title']
       date = datetime.datetime.strptime(item['published'][:-1], "%Y-%m-%dT%H:%M:%S")
-      dataline = '<a href="' + item['author_detail']['href'] + \
+      dataline = '<span class="time">' + \
+                 '<a href="' + item['author_detail']['href'] + \
                  '">github.com/kasterma</a>' + \
                  '&nbsp;&nbsp;<a href="' + link + '">' + rep_name + '</a>&nbsp;' + \
-                 '<span class="time">' + \
-                 date.strftime("%A, %d %B at %H:%M") + \
+                 date.strftime("%A, %d %B") + \
                  '</span>'
 
 
@@ -132,11 +132,11 @@ def twitter_get():
   for status in statuslist_json:
     text = status['text']
     date = datetime.datetime.strptime(status['created_at'][:-10] + status['created_at'][-5:], "%a %b %d %H:%M:%S %Y")
-    dataline = '<a href="https://twitter.com/kasterma">@kasterma</a>' + \
+    dataline = '<span class="time">' + \
+               '<a href="https://twitter.com/kasterma">@kasterma</a>' + \
                '&nbsp;&nbsp;<a href="https://twitter.com/#!/kasterma/status/' + \
                status['id_str'] + '">this tweet</a>&nbsp;' +\
-               '<span class="time">' + \
-               date.strftime("%A, %d %B at %H:%M") + \
+               date.strftime("%A, %d %B") + \
                '</span>'
     twitter_items.append([date, 'twitter', make_make_item(text, 'twitter.png', dataline)])
 
@@ -182,6 +182,6 @@ github_items = github_get()
 twitter_items = twitter_get()
 
 all_items = gplus_items + github_items + twitter_items
-use_items = take_items(all_items, 12, 2, 2, 2)
+use_items = take_items(all_items, 20, 3, 3, 3)
 
 print "\n".join(use_items)
