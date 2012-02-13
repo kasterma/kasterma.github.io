@@ -27,6 +27,26 @@
 
 <div class="cbox">
 <h2 class="ctitle">
+  Webpages
+</h2>
+
+<ul>
+  <li>
+    <a href="https://github.com/kasterma/vo_scores">vo_scores</a>: a php and mysql
+    program to get soccer scores through xml, parse and put them in the database.
+    Then some scripts to generate the static tables to be included in the final
+    webpage.
+  </li>
+  <li>
+    <a href="https://github.com/kasterma/homepage">homepage</a>: the html, css,
+    and javascript code for my webpages.  Also includes the python code to
+    fetch, parse, and generate the tweet/google+/github stream on the main
+    page.
+  </li>
+</div>
+
+<div class="cbox">
+<h2 class="ctitle">
   MIX
 </h2>
 
