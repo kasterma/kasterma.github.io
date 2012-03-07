@@ -87,6 +87,23 @@ I wrote a <a href="https://github.com/kasterma/ai-class/blob/master/particle/par
 </p>
 </div>
 
+
+<div class="cbox">
+<h2 class="ctitle">
+  Hadoop Map-Reduce
+</h2>
+
+<p>
+I implemented all MapReduce Algorithms mentioned in the
+<a href="http://www.cloudera.com/resource/mapreduce_algorithms/">Cloudera
+        MapReduce Training video</a>  (that is finding the max, counting words,
+making an index, searching through files, computing joins, sorting files, and 
+the term frequence inverse document count algorithm).  Files can be seen at
+<a href="https://github.com/kasterma/hadoop-exper">kasterma/hadoop-exer</a>.
+</p>
+</div>
+
+
 <div class="cbox">
 <h2 class="ctitle">
   Backing up
