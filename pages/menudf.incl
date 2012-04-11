@@ -9,6 +9,9 @@ $onbartk = array (
                   "Bart Kastermans' home page: contact information,
                   intro, and my most recent tweets, g+ posts, and
                   actions on github"),
+"cv" => array("CV",
+              "cv.php",
+              "Curriculum Vitae"),
 "comput" => array ("Computing",
                    "comput.php",
                    "Links to code and related."),
