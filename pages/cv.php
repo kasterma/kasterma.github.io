@@ -25,7 +25,7 @@
 
  <div class="content_ep">
 
-<div class="cbox">
+<div class="cvbox">
 <blockquote>
 I am an Assistant Professor at the University of Colorado with a
 longstanding interest in information technology looking for a position
@@ -33,8 +33,8 @@ with a great team solving challenging practical problems.
 </blockquote>
 </div>
 
-<div class="cbox">
-<h2 class="ctitle">
+<div class="cvbox">
+<h2 class="cvtitle">
         Technologies
 </h2>
 
@@ -81,32 +81,35 @@ contains some code I have written.  Example repositories:
 </div>
 
 
-<div class="cbox">
-<h2 class="ctitle">
+<div class="cvbox">
+<h2 class="cvtitle">
         Previous Positions
 </h2>
 
-<dl>
-<dt>2009 --- 2012</dt>
-<dd> <b>Assistant Professor</b>, University of
-Colorado, Boulder.</dd>
+<p>
+2009&ndash;2012: <b>Assistant Professor</b>, University of
+Colorado, Boulder.
+</p>
 
-<dt>2006 --- 2009</dt>
-<dd>Van Vleck Visiting <b>Assistant
-  Professor</b>, University of Wisconsin, Madison.</dd>
+<p>
+2006&ndash;2009: Van Vleck Visiting <b>Assistant
+Professor</b>, University of Wisconsin, Madison.
+</p>
 
-<dt>2006</dt>
-<dd>Graduate Student <b>Instructor</b>, University of
-Michigan, Ann Arbor.</dd>
+<p>
+2006: Graduate Student <b>Instructor</b>, University of
+Michigan, Ann Arbor.
+</p>
 
-<dt>2005</dt>
-<dd> <b>Visiting Scholar</b>, Sun Yat-Sen University,
-Guangzhou, China.</dd>
+<p>
+2005: <b>Visiting Scholar</b>, Sun Yat-Sen University,
+Guangzhou, China.
+</p>
 
-<dt>2000 --- 2004</dt>
-<dd>Graduate Student <b>Instructor</b>,
-University of Michigan, Ann Arbor.</dd>
-</dl>
+<p>
+2000&ndash;2004: Graduate Student <b>Instructor</b>,
+University of Michigan, Ann Arbor.
+</p>
 
 <p>
 All these positions had research in mathematical logic (set theory and
@@ -118,29 +121,30 @@ levels, and administration (including organizing conferences).
 </div>
 
 
-<div class="cbox">
-<h2 class="ctitle">
+<div class="cvbox">
+<h2 class="cvtitle">
   Education
 </h2>
 
-<dl>
-<dt>2000 --- 2006</dt>
-<dd>University of Michigan, Mathematics, <b>PhD</b>.</dd>
+<p>
+2000&ndash;2006: University of Michigan, Mathematics, <b>PhD</b>.
+</p>
 
-<dt>1999</dt>
-<dd>Mathematical Research Institute, Master Class in
-Mathematical Logic (with honors).</dd>
+<p>
+1999: Mathematical Research Institute, Master Class in
+Mathematical Logic (with honors).
+</p>
 
-<dt>1995 --- 2000</dt>
-<dd>Vrije Universiteit Amsterdam, Mathematics,
-<b>MSc</b> (with honors)</dd>
-</dl>
+<p>
+1995&ndash;2000: Vrije Universiteit Amsterdam, Mathematics,
+<b>MSc</b> (with honors).
+</p>
 
 </div>
 
 
-<div class="cbox">
-<h2 class="ctitle">
+<div class="cvbox">
+<h2 class="cvtitle">
   Short Research Description
 </h2>
 

@@ -175,6 +175,23 @@ p.caption
     text-align: center;
 }
 
+/* boxes for cv page */
+.cvbox {
+    border : 1px solid <?php echo $bordergrey; ?>;
+    padding-left : 15px;
+    padding-right : 15px;
+    margin-bottom: 20px;
+    line-height : 140%;
+    background-color : 	#F5F5F5;
+}
+
+.cvtitle {
+    margin-left : -12px;
+    margin-top : 1px;
+    margin-bottom : -5px;
+    color : Grey;
+}
+
 
 /* my picture on index.php */
 .mypic {
