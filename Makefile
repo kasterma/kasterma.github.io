@@ -1,7 +1,7 @@
 .PHONY: stage getdata publish
 
-staging_dir = ~/staging.www.bartk.nl/
-www_dir = ~/www.kasterma.net/
+staging_dir = ~/kasterma.net/
+www_dir = ~/kasterma.net/
 
 stage:
 	mkdir -p $(staging_dir)images/
@@ -12,8 +12,9 @@ stage:
 	cp papers/* $(staging_dir)papers/
 
 publish:
-	rm -rf $(www_dir)/*
-	cp -r $(staging_dir)* $(www_dir)
+	echo "Temporarily use stage to publish"
+	#rm -rf $(www_dir)/*
+	#cp -r $(staging_dir)* $(www_dir)
 
 getdata_staging:
 	cd getdata; python get_data.py > $(staging_dir)out.html

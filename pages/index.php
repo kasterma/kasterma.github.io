@@ -61,9 +61,7 @@ include ('menu.php');
    </p>
 
    <p>
-    Right now I am preparing for a career change towards information
-    technology.  I feel I have worked enough on foundational
-    questions in mathematics, and am ready for new challenges.
+End of May I'll start as a software developer at CoachR Development.
    </p>
   </td>
   <td width="40%" class="hpbox">
