@@ -46,44 +46,29 @@ include ('menu.php');
    <img class="mypic"
         src="images/me.jpg" />
    <p> 
-    I am an Assistant Professor at
-    the <a href="http://www.colorado.edu/math/">Mathematics
-    Department</a> of
-    the <a href="http://www.colorado.edu/">University of
-    Colorado</a>
-    in Boulder.
+     I am a software developer at CoachR Development in Dodewaard, Netherlands.
    </p>
 
    <p>
+    Until July 2012, I was an Assistant Professor at the Mathematics
+    Department of the University of Colorado in Boulder.
     My mathematical work has been in Set Theory (almost disjoint type
     families) and Computability theory (effective randomness and
     reverse mathematics).
    </p>
 
-   <p>
-End of May I'll start as a software developer at CoachR Development.
-   </p>
   </td>
   <td width="40%" class="hpbox">
    <p>
     Bart Kastermans<br />
-    University of Colorado - Boulder<br />
-    Department of Mathematics<br />
-    395 UCB<br />
-    Boulder, CO 80309<br />
-    USA
+    CoachR Development<br />
+    Edisonring 4-b<br />
+    6669 NB, Dodewaard<br />
+    Netherlands
    </p>
 
    <p>
-    Office: MATH 204
-   </p>
-
-   <p>
-    Phone: (+1) 303-900-2278
-   </p>
-
-   <p>
-    Email: kasterma@colorado.edu
+    Email: kasterma@kasterma.net
    </p>
   </td>
  </tr>
