@@ -50,8 +50,10 @@ include ('menu.php');
    </p>
 
    <p>
-    Until July 2012, I was an Assistant Professor at the Mathematics
-    Department of the University of Colorado in Boulder.
+     In 2006 I received a PhD in Mathematics at the University of Michigan, Ann Arbor.  After that I was a postdoc at the University of Wisconsin, Madison, and than an Assistant Professor at the University of Colorado, Boulder.
+     </p>
+
+     <p>
     My mathematical work has been in Set Theory (almost disjoint type
     families) and Computability theory (effective randomness and
     reverse mathematics).
