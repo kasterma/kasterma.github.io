@@ -7,7 +7,7 @@ $onbartk = array (
 "index" => array ("Home",
                   "index.php",
                   "Bart Kastermans' home page: contact information,
-                  intro, and my most recent tweets, g+ posts, and
+                  intro, and my most recent
                   actions on github"),
 "cv" => array("CV",
               "cv.php",
@@ -21,19 +21,11 @@ $onbartk = array (
 "teach" => array ("Computability Theory",
                   "teach.php",
                   "Description of my Computability Theory course with
-                  links to lecture videos.")
-);
-
-$elsewhere = array (
-"twitter" => array ("@kasterma",
-                    "http://twitter.com/kasterma/",
-                    "My twitter feed"),
-"googleplus" => array ("+Bart Kastermans",
-                      "https://plus.google.com/102085185756507251350/about",
-                      "My google+ profile"),
-"github" => array ("github/kasterma",
+                  links to lecture videos."),
+"github" => array ("github.com/kasterma",
                    "https://github.com/kasterma",
                    "My repositories on github")
+
 );
 
 function writemenufunctions ($menuarray)
