@@ -50,7 +50,7 @@ include ('menu.php');
    </p>
 
    <p>
-     In 2006 I received a PhD in Mathematics at the University of Michigan, Ann Arbor.  After that I was a postdoc at the University of Wisconsin, Madison, and than an Assistant Professor at the University of Colorado, Boulder.
+     In 2006 I received a PhD in Mathematics at the University of Michigan, Ann Arbor.  After that I was a postdoc at the University of Wisconsin, Madison, and then an Assistant Professor at the University of Colorado, Boulder.
      </p>
 
      <p>

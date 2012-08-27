@@ -25,6 +25,7 @@
 
  <div class="content_ep">
 
+<!--
 <div class="cvbox">
 <blockquote>
 I am an Assistant Professor at the University of Colorado with a
@@ -79,7 +80,7 @@ contains some code I have written.  Example repositories:
 </dl>
 
 </div>
-
+-->
 
 <div class="cvbox">
 <h2 class="cvtitle">

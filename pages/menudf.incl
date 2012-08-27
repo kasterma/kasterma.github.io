@@ -6,7 +6,7 @@ $tip_text = 2;
 $onbartk = array (
 "index" => array ("Home",
                   "index.php",
-                  "Bart Kastermans' home page: contact information,
+                  "contact information,
                   intro, and my most recent
                   actions on github"),
 "cv" => array("CV",
@@ -17,7 +17,7 @@ $onbartk = array (
                    "Links to code and related."),
 "files" => array ("Publications",
                   "files.php",
-                  "Page with my publications (and their abstracts)"),
+                  "Page with my publications and their abstracts"),
 "teach" => array ("Computability Theory",
                   "teach.php",
                   "Description of my Computability Theory course with
