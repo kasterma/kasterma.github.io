@@ -8,7 +8,7 @@
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
 <meta name="author" content="Bart Kastermans" />
-<meta name="description" content="Page with information about classes I am teaching." />
+<meta name="description" content="Page about computability theory class." />
 
 <link rel="stylesheet" type="text/css" href="bkstyle.php" />
 
@@ -33,8 +33,8 @@ include ('menu.php'); ?>
 </h2>
 
 <p>
-This class was run in the Spring of 2011.  It was a class for advanced
-graduate students.
+This class was run at the University of Colorado Boulder in the Spring
+of 2011.  It was a class for advanced graduate students.
 </p>
 
 <p>
