@@ -25,12 +25,13 @@
 
  <div class="content_ep">
 
-<!--
+
 <div class="cvbox">
 <blockquote>
-I am an Assistant Professor at the University of Colorado with a
-longstanding interest in information technology looking for a position
-with a great team solving challenging practical problems.
+I recently left a position as an Assistant Professor in Mathematics
+at the University of Colorado giving in to a longstanding interest in
+information technology. I am interested in a position with a great team
+solving challenging practical problems.
 </blockquote>
 </div>
 
@@ -40,27 +41,12 @@ with a great team solving challenging practical problems.
 </h2>
 
 <p>
-Development experience: python, php, R, javascript, C, Java, assembler,
-clojure, the hadoop framework, ML, Octave (matlab), HTML, CSS, and
-SQL.
+Development experience: C++, SQL, clojure, python, php, HTML, CSSR,
+javascript, C, Java, and assembler.
 </p>
 
 <p>
 Experience: Windows, OS X, and Linux.
-</p>
-
-<p>
-In the last year I have taken a variety of relevant online courses
-     (courses marked with <sup>&oplus;</sup> are in progress):
-<dl>
-<dt>With the coursera initiative by Stanford University:</dt>
-<dd>Artificial Intelligence, Databases, Machine Learning, Cryptography<sup>&oplus;</sup>, Graphical
-Probabilistic Models<sup>&oplus;</sup>, Natural Language Processing<sup>&oplus;</sup>.</dd>
-<dt>With udacity:</dt>
-<dd> Programming a Robotic Car.</dd>
-<dt>With MIT:</dt>
-<dd>Circuits and Electronics 6.002x<sup>&oplus;</sup>.</dd>
-</dl>
 </p>
 
 <p>
@@ -80,12 +66,26 @@ contains some code I have written.  Example repositories:
 </dl>
 
 </div>
--->
 
 <div class="cvbox">
 <h2 class="cvtitle">
-        Previous Positions
+        Positions
 </h2>
+
+<p>
+2012: <b>Software Developer</b>, CoachR Development, Dodewaard. <br />
+This position includes:
+</p>
+<ul style="margin-top: -12px; margin-bottom: 20px;">
+<li>Functional design (in close cooperation with the customers describe the functional behavior of the software),</li>
+<li>technical design (setting up the global design of the software to have the
+structure in place for building it),</li>
+<li>programming the backend in C++ using the internally developed framework, MySQL and SQLite,</li>
+<li>improvements to the framework,</li>
+<li>frontend implementation with javascript.</li>
+<li>I also helped with further professionalization of the organization
+helping with company culture and application security.</li>
+</ul>
 
 <p>
 2009&ndash;2012: <b>Assistant Professor</b>, University of
@@ -113,10 +113,11 @@ University of Michigan, Ann Arbor.
 </p>
 
 <p>
-All these positions had research in mathematical logic (set theory and
-computability theory) as the main component.  They also involved
-teaching a variety of classes at both undergraduate and graduate
-levels, and administration (including organizing conferences).
+These academic positions had research in mathematical logic (set
+theory and computability theory) as the main component.  They also
+involved teaching a variety of classes at both undergraduate and
+graduate levels, and administration (including organizing
+conferences).
 </p>
 
 </div>
