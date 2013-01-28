@@ -45,13 +45,6 @@ by Robert Soare; this was distributed during the first week of
 classes.
 </p>
 
-
-<p>
-Note: all of the below videos will be <b>password protected</b> until
-the book has appeared.  Passwords to the videos are however available
-on request.
-</p>
-
 <table class="lectureTable">
   <tr>
    <td>
