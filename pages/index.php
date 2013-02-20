@@ -46,7 +46,7 @@ include ('menu.php');
    <img class="mypic"
         src="images/me.jpg" />
    <p> 
-     I am a software developer at CoachR Development in Dodewaard, Netherlands.
+     I am a data scientist at MillMobile in Amsterdam, the Netherlands.
    </p>
 
    <p>
@@ -63,9 +63,9 @@ include ('menu.php');
   <td width="40%" class="hpbox">
    <p>
     Bart Kastermans<br />
-    CoachR Development<br />
-    Edisonring 4-b<br />
-    6669 NB, Dodewaard<br />
+    MillMobile B.V.<br />
+    Oostenburgergracht 17-D<br />
+    1018 NA Amsterdam<br />
     Netherlands
    </p>
 
