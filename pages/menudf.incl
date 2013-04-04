@@ -24,8 +24,10 @@ $onbartk = array (
                   links to lecture videos."),
 "github" => array ("github.com/kasterma",
                    "https://github.com/kasterma",
-                   "My repositories on github")
-
+                   "My repositories on github"),
+"zotskolf" => array("zotskolf (blog)",
+	            "http://zotskolf.nl",
+                    "My blog.")
 );
 
 function writemenufunctions ($menuarray)
