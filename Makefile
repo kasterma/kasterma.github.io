@@ -2,6 +2,7 @@
 
 staging_dir = ~/kasterma.net/
 www_dir = ~/kasterma.net/
+BLOGDIR=~/zotskolf.nl/
 
 stage:
 	mkdir -p $(staging_dir)images/
@@ -21,3 +22,9 @@ getdata_staging:
 
 getdata:
 	cd getdata; python get_data.py > $(www_dir)out.html
+
+pushblog:
+	cp pages/bkstyle.php $(BLOGDIR)
+	cp pages/menu.php $(BLOGDIR)
+	cp pages/menudf.incl $(BLOGDIR)
+	cp blog/* $(BLOGDIR)
