@@ -176,7 +176,7 @@ p.caption
 }
 
 /* boxes for cv page */
-.cvbox {
+.cvbox, .blogbox {
     border : 1px solid <?php echo $bordergrey; ?>;
     padding-left : 15px;
     padding-right : 15px;
@@ -185,7 +185,7 @@ p.caption
     background-color : 	#F5F5F5;
 }
 
-.cvtitle {
+.cvtitle, .blogtitle {
     margin-left : -12px;
     margin-top : 1px;
     margin-bottom : -5px;
@@ -230,3 +230,4 @@ p.caption
     padding : 10px;
     background-color : 	#F5F5F5;
 }
+

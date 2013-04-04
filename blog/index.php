@@ -3,7 +3,7 @@
 <head>
 
   <title>
-    Zotskolf: another opportunity to be hopelessly wrong.
+    Zotskolf: a additional opportunity to be hopelessly wrong.
   </title>
 
   <meta http-equiv="content-type" 
@@ -34,11 +34,28 @@ $active = "zotskolf";
 include ('menu.php');
 ?>
 
-<div class="content">
+<div class="content_ep">
 
- <p class="blogbox">
-   blog box
- </p>
+ <div class="blogbox">
+   <h2 class="blogtitle">
+     About this blog
+   </h2>
+   <p>
+     I started this part of my website on April 4, 2013.  The plan is
+     to have something bloglike where I can write some experiences
+     with programming and related matters.  The subtitle "an
+     additional opportunity to be hopelessly wrong" is to be taken as
+     serious as possible.  Some things written here will have been
+     thought about deeply, others have been barely thought about long
+     enough to touch the keyboard to make them appear here.
+   </p>
+
+   <p>
+    Btw: <a href="http://nl.wikipedia.org/wiki/Zotskolf">Zotskolf</a> is
+    the Dutch word for <a href="http://en.wikipedia.org/wiki/Marotte">
+    Marotte</a>, a fool's sceptre.
+   </p>
+ </div>
 
 </div>
 
