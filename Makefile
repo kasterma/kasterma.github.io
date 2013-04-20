@@ -1,8 +1,9 @@
 .PHONY: stage getdata publish
 
-staging_dir = ~/kasterma.net/
-www_dir = ~/kasterma.net/
-BLOGDIR=~/zotskolf.nl/
+homepage_dir = /home/kasterma/homepage/
+staging_dir = /home/kasterma/kasterma.net/
+www_dir = /home/kasterma/kasterma.net/
+BLOGDIR= /home/kasterma/zotskolf.nl/
 
 stage:
 	mkdir -p $(staging_dir)images/
@@ -18,13 +19,13 @@ publish:
 	#cp -r $(staging_dir)* $(www_dir)
 
 getdata_staging:
-	cd getdata; python get_data.py > $(staging_dir)out.html
+	cd $(homepage_dir)getdata; python get_data.py > $(staging_dir)out.html
 
 getdata:
-	cd getdata; python get_data.py > $(www_dir)out.html
+	cd $(homepage_dir)getdata; python get_data.py > $(www_dir)out.html
 
 pushblog:
-	cp pages/bkstyle.php $(BLOGDIR)
-	cp pages/menu.php $(BLOGDIR)
-	cp pages/menudf.incl $(BLOGDIR)
-	cp blog/* $(BLOGDIR)
+	cp $(homepage_dir)pages/bkstyle.php $(BLOGDIR)
+	cp $(homepage_dir)pages/menu.php $(BLOGDIR)
+	cp $(homepage_dir)pages/menudf.incl $(BLOGDIR)
+	cp $(homepage_dir)blog/* $(BLOGDIR)
