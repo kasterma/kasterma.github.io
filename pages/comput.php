@@ -9,7 +9,7 @@
 <meta name="description" content="Bart Kastermans' Computing Page: LaTeX snippets"></meta>
 <meta name="keywords" content="Bart, Kastermans, Bart Kastermans, LaTeX"></meta>
 
-<link rel="stylesheet" type="text/css" href="bkstyle.php"></link>
+<link rel="stylesheet" type="text/css" href="bkstyle.css"></link>
 
 <?php include ("menudf.incl"); ?>
 

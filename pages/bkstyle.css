@@ -1,7 +1,3 @@
-<?php header("Content-type: text/css"); ?>
-
-<?php $bordergrey="#7A7A7A"; ?>
-
 body {
     margin : 0;
     Padding : 0;
@@ -25,7 +21,7 @@ body {
 .navline {
     margin : 10px -1px 10px -1px;
     padding : 4px 0 4px 30px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     background-color : White; 
 }
 
@@ -36,7 +32,7 @@ body {
     padding : 0 15px 0 15px;
     margin : 10px;
     padding : 6px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     background-color : White;
 }
 
@@ -46,7 +42,7 @@ body {
     padding : 0 15px 0 15px;
     margin : 10px;
     padding : 6px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     background-color : #F5F5F5;
 }
 
@@ -81,14 +77,14 @@ a.navitem:hover {
     padding : 0 15px 0 15px;
     margin : 10px;
     padding : 6px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
 }
 
 .content {
     background-color : White;
     margin : -80px 4% 4% 4%;
     padding : 0px 0px 10px 0px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
 }
 
 /* extra padding */
@@ -96,7 +92,7 @@ a.navitem:hover {
     background-color : White;
     margin : -80px 4% 4% 4%;
     padding : 20px 20px 20px 20px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
 }
 
 .hptopbox {
@@ -110,7 +106,7 @@ a.navitem:hover {
 .hpbox {
     margin : 5px 5px 5px 5px;
     padding : 20px;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     background-color : 	#F5F5F5;
 }
 
@@ -133,7 +129,7 @@ a.navitem:hover {
 
 .box {
     width : 95%;
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     padding : 10px;
     margin-top:10px;
     background-color : 	#F5F5F5;
@@ -141,7 +137,7 @@ a.navitem:hover {
 
 /* boxes for comput page */
 .cbox {
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     padding-left : 15px;
     padding-right : 15px;
     margin-bottom: 20px;
@@ -156,7 +152,7 @@ a.navitem:hover {
 }
 
 .cboxlast {
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     padding-left : 15px;
     padding-right : 15px;
     margin-bottom: 0px;
@@ -177,7 +173,7 @@ p.caption
 
 /* boxes for cv page */
 .cvbox, .blogbox {
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     padding-left : 15px;
     padding-right : 15px;
     margin-bottom: 20px;
@@ -226,7 +222,7 @@ p.caption
 }
 
 .lectureTable td {
-    border : 1px solid <?php echo $bordergrey; ?>;
+    border : 1px solid #7A7A7A;
     padding : 10px;
     background-color : 	#F5F5F5;
 }

@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" 
         type="text/css"
-        href="bkstyle.php" />
+        href="bkstyle.css" />
 
    <?php include ("menudf.incl"); ?>
 

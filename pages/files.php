@@ -10,7 +10,7 @@
 <meta name="author" content="Bart Kastermans" />
 <meta name="description" content="Links to files of articles and slides." />
 
-<link rel="stylesheet" type="text/css" href="bkstyle.php" />
+<link rel="stylesheet" type="text/css" href="bkstyle.css" />
 <style type="text/css">sup.double {vertical-align: 1.2ex}</style>
 <style type="text/css">sub.double {margin-left: -1ex; vertical-align: -0.5ex}</style>
 

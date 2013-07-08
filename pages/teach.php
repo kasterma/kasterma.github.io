@@ -10,7 +10,7 @@
 <meta name="author" content="Bart Kastermans" />
 <meta name="description" content="Page about computability theory class." />
 
-<link rel="stylesheet" type="text/css" href="bkstyle.php" />
+<link rel="stylesheet" type="text/css" href="bkstyle.css" />
 
 <?php include ("menudf.incl"); ?>
 
