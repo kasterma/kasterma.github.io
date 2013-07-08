@@ -12,16 +12,13 @@ $onbartk = array (
 "cv" => array("CV",
               "http://kasterma.net/cv.php",
               "Curriculum Vitae"),
-"comput" => array ("Computing",
-                   "http://kasterma.net/comput.php",
-                   "Links to code and related."),
 "files" => array ("Publications",
                   "http://kasterma.net/files.php",
                   "Page with my publications and their abstracts"),
-"teach" => array ("Computability Theory",
+"teach" => array ("Computability Theory Course",
                   "http://kasterma.net/teach.php",
                   "Description of my Computability Theory course with
-                  links to lecture videos.")
+                  links to complete lecture videos.")
 );
 
 function writemenufunctions ($menuarray)
