@@ -61,16 +61,17 @@ include ('menu.php');
 
   </td>
   <td width="40%" class="hpbox">
-   <p>
-     My <a href="https://github.com/kasterma">github repos</a> and my
-     <a href="http://zotskolf.nl">blog</a>.
-   </p>
+   <ul>
+     <li>My <a href="https://github.com/kasterma">github repos</a></li>
+     <li>My <a href="https://bitbucket.org/kasterma">bitbucket repos</a></li>
+     <li>My<a href="http://zotskolf.nl">blog</a></li>
+   </ul>
   </td>
  </tr>
  </table>
 
 
- <div class="hpboxwide">
+ <div class="hpboxx">
    <p>
     Bart Kastermans<br />
     MillMobile B.V.<br />
