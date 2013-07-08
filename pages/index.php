@@ -45,7 +45,7 @@ include ('menu.php');
   <td class="hpbox">
    <img class="mypic"
         src="images/me.jpg" />
-   <p> 
+   <p>
      I am a data scientist at MillMobile in Amsterdam, the Netherlands.
    </p>
 
@@ -70,7 +70,7 @@ include ('menu.php');
  </table>
 
 
- <div class="hpbox">
+ <div class="hpboxwide">
    <p>
     Bart Kastermans<br />
     MillMobile B.V.<br />
