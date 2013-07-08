@@ -8,7 +8,6 @@ stage:
 	mkdir -p $(staging_dir)images/
 	cp -r images/* $(staging_dir)images/
 	cp pages/* $(staging_dir)
-	cp -r computingPages/* $(staging_dir)
 	mkdir -p $(staging_dir)papers/
 	cp papers/* $(staging_dir)papers/
 
