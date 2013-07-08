@@ -7,7 +7,7 @@ BLOGDIR= /home/kasterma/zotskolf.nl/
 
 stage:
 	mkdir -p $(staging_dir)images/
-	cp images/* $(staging_dir)images/
+	cp -r images/* $(staging_dir)images/
 	cp pages/* $(staging_dir)
 	cp -r computingPages/* $(staging_dir)
 	mkdir -p $(staging_dir)papers/
@@ -29,3 +29,4 @@ pushblog:
 	cp $(homepage_dir)pages/menu.php $(BLOGDIR)
 	cp $(homepage_dir)pages/menudf.incl $(BLOGDIR)
 	cp $(homepage_dir)blog/* $(BLOGDIR)
+	cp $(homepage_dir)images/blog/* $(BLOGDIR)
