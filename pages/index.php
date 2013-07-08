@@ -62,15 +62,8 @@ include ('menu.php');
   </td>
   <td width="40%" class="hpbox">
    <p>
-    Bart Kastermans<br />
-    MillMobile B.V.<br />
-    Oostenburgergracht 17-D<br />
-    1018 NA Amsterdam<br />
-    Netherlands
-   </p>
-
-   <p>
-    Email: kasterma@kasterma.net
+     My <a href="https://github.com/kasterma">github repos</a> and my
+     <a href="http://zotskolf.nl">blog</a>.
    </p>
   </td>
  </tr>

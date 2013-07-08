@@ -21,13 +21,7 @@ $onbartk = array (
 "teach" => array ("Computability Theory",
                   "http://kasterma.net/teach.php",
                   "Description of my Computability Theory course with
-                  links to lecture videos."),
-"github" => array ("github.com/kasterma",
-                   "https://github.com/kasterma",
-                   "My repositories on github"),
-"zotskolf" => array("zotskolf (blog)",
-	            "http://zotskolf.nl",
-                    "My blog.")
+                  links to lecture videos.")
 );
 
 function writemenufunctions ($menuarray)
