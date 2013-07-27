@@ -64,7 +64,7 @@ include ('menu.php');
    <ul>
      <li>My <a href="https://github.com/kasterma">github repos</a></li>
      <li>My <a href="https://bitbucket.org/kasterma">bitbucket repos</a></li>
-     <li>My<a href="http://zotskolf.nl">blog</a></li>
+     <li>My <a href="http://zotskolf.nl">blog (zotskolf.nl)</a></li>
    </ul>
   </td>
  </tr>
