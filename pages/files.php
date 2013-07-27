@@ -3,12 +3,12 @@
 <head>
 
 <title>
- Bart Kastermans Files.
+ Bart Kastermans Publications.
 </title>
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
 <meta name="author" content="Bart Kastermans" />
-<meta name="description" content="Links to files of articles and slides." />
+<meta name="description" content="Bart Kastermans Publications." />
 
 <link rel="stylesheet" type="text/css" href="bkstyle.css" />
 <style type="text/css">sup.double {vertical-align: 1.2ex}</style>

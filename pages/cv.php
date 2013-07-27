@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>
-  Bart Kastermans Computing Page
+  Bart Kastermans' Curriculum Vitae
 </title>
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<meta name="description" content="Bart Kastermans' Computing Page: LaTeX snippets"></meta>
-<meta name="keywords" content="Bart, Kastermans, Bart Kastermans, LaTeX"></meta>
+<meta name="description" content="Bart Kastermans' Curriculum Vitae"></meta
+<meta name="keywords" content="Bart, Kastermans, Bart Kastermans, CV"></meta>
 
 <link rel="stylesheet" type="text/css" href="bkstyle.css"></link>
 
@@ -41,8 +41,8 @@ solving challenging practical problems.
 </h2>
 
 <p>
-Development experience: C++, SQL, clojure, python, php, HTML, CSSR,
-javascript, C, Java, and assembler.
+Development experience: R, clojure, C++, SQL, clojure, python, php, HTML, CSS,
+javascript, C, and Java.
 </p>
 
 <p>

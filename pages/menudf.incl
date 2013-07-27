@@ -6,9 +6,7 @@ $tip_text = 2;
 $onbartk = array (
 "index" => array ("Home",
                   "http://kasterma.net/index.php",
-                  "contact information,
-                  intro, and my most recent
-                  actions on github"),
+                  "contact information and intro"),
 "cv" => array("CV",
               "http://kasterma.net/cv.php",
               "Curriculum Vitae"),
