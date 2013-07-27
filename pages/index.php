@@ -42,11 +42,14 @@ include ('menu.php');
 
  <table cellspacing="20" class="hptopbox">
  <tr style="height:300px;">
-  <td class="hpbox">
+  <td class="hpbox" valign="top">
+
+
    <img class="mypic"
         src="images/me.jpg" />
    <p>
-     I am a data scientist at MillMobile in Amsterdam, the Netherlands.
+     I am Bart Kastermans, currently a data scientist at MillMobile in
+     Amsterdam, the Netherlands.
    </p>
 
    <p>
@@ -59,27 +62,15 @@ include ('menu.php');
     reverse mathematics).
    </p>
 
-  </td>
-  <td width="40%" class="hpbox">
    <ul>
      <li>My <a href="https://github.com/kasterma">github repos</a></li>
      <li>My <a href="https://bitbucket.org/kasterma">bitbucket repos</a></li>
      <li>My <a href="http://zotskolf.nl">blog (zotskolf.nl)</a></li>
    </ul>
+
+
   </td>
- </tr>
- </table>
-
-
- <div class="hpboxx">
-   <p>
-    Bart Kastermans<br />
-    MillMobile B.V.<br />
-    Oostenburgergracht 17-D<br />
-    1018 NA Amsterdam<br />
-    Netherlands
-   </p>
-
+  <td width="40%" class="hpbox">
    <p>
     Email: kasterma@kasterma.net
    </p>
@@ -123,7 +114,9 @@ c07v6znLxtSJfTeLS1yW0xxdXRLA8dtBU2O6APVPxZYKa5jryfFq/vPwcZRQ2pPc
 =PB27
 -----END PGP PUBLIC KEY BLOCK-----
   </pre>
- </div>
+  </td>
+ </tr>
+ </table>
 
 </div>
 
