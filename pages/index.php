@@ -62,11 +62,16 @@ include ('menu.php');
     reverse mathematics).
    </p>
 
-   <ul>
-     <li>My <a href="https://github.com/kasterma">github repos</a></li>
-     <li>My <a href="https://bitbucket.org/kasterma">bitbucket repos</a></li>
-     <li>My <a href="http://zotskolf.nl">blog (zotskolf.nl)</a></li>
+
+     <p>
+       You can also find me at the following places:
+       <ul>
+	 <li><a href="https://github.com/kasterma">github.com/kasterma</a></li>
+	 <li><a href="https://bitbucket.org/kasterma">bitbucket.org/kasterma</a></li>
+     <li><a href="http://rpubs.com/kasterma">rpubs.com/kasterma</a></li>
+     <li><a href="http://zotskolf.nl">zotskolf.nl (my blog)</a></li>
    </ul>
+   </p>
 
 
   </td>
