@@ -24,7 +24,7 @@ function hidetip ($id) {
   <span class="place">
     <span class="tooltip" id="cvtip">Curriculum Vitae </span>
   </span>
-  <a class={% if include.active == 'cv' %} "navitem_active"
+  <a class={% if active == 'cv' %} "navitem_active"
            {% else %} "navitem" {% endif %}
      href="/cv.html"
      onmouseover="showtip ('cvtip');"
@@ -32,7 +32,7 @@ function hidetip ($id) {
   <span class="place">
     <span class="tooltip" id="filestip">Page with my publications and their abstracts </span>
   </span>
-  <a class={% if include.active == 'files' %} "navitem_active"
+  <a class={% if active == 'files' %} "navitem_active"
            {% else %} "navitem" {% endif %}
      href="/files.html"
      onmouseover="showtip ('filestip');"
@@ -40,7 +40,7 @@ function hidetip ($id) {
   <span class="place">
     <span class="tooltip" id="teachtip">Description of my Computability Theory course with links to complete lecture videos. </span>
   </span>
-  <a class={% if include.active == 'teach' %} "navitem_active"
+  <a class={% if active == 'teach' %} "navitem_active"
            {% else %} "navitem" {% endif %}
      href="/teach.html"
      onmouseover="showtip ('teachtip');"
