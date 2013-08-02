@@ -16,7 +16,7 @@ function hidetip ($id) {
   <span class="place">
     <span class="tooltip" id="indextip">contact information and intro </span>
   </span>
-  <a class={% if include.active == 'index' %} "navitem_active"
+  <a class={% if active == 'index' %} "navitem_active"
            {% else %} "navitem" {% endif %}
      href="/index.html"
      onmouseover="showtip ('indextip');"
