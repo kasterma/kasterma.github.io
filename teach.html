@@ -1,30 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+---
+layout: default
+title: Bart Kastermans' Computabilty Theory Course
+---
 
-<title>
-  Computability Theory Class.
-</title>
-
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
-<meta name="author" content="Bart Kastermans" />
-<meta name="description" content="Page about computability theory class." />
-
-<link rel="stylesheet" type="text/css" href="bkstyle.css" />
-
-<?php include ("menudf.incl"); ?>
-
-<?php writemenufunctions ($onbartk); 
-      echo "\n";
-      writemenufunctions ($elsewhere); ?>
-
-</head>
-
-<body>
-
-<?php
-$active = "teach";
-include ('menu.php'); ?>
+{% include menu.html active="teach"%}
 
 <div class="content_ep">
 
@@ -363,6 +342,3 @@ degree.
 
 
 </div>
-</body>
-
-</html> 

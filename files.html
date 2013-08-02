@@ -1,24 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+---
+layout: default
+title: Bart Kastermans' Publications
+---
 
-<title>
- Bart Kastermans Publications.
-</title>
-
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
-<meta name="author" content="Bart Kastermans" />
-<meta name="description" content="Bart Kastermans Publications." />
-
-<link rel="stylesheet" type="text/css" href="bkstyle.css" />
-<style type="text/css">sup.double {vertical-align: 1.2ex}</style>
-<style type="text/css">sub.double {margin-left: -1ex; vertical-align: -0.5ex}</style>
-
-<?php include ("menudf.incl"); ?>
-
-<?php writemenufunctions ($onbartk); 
-      echo "\n";
-      writemenufunctions ($elsewhere); ?>
+{% include menu.html active="files"%}
 
 <script type="text/javascript">
 function showabstract(idx) {
@@ -38,14 +23,6 @@ function flipabstract(idx) {
   }
 }
 </script>
-
-</head>
-
-<body>
-
-<?php
-$active = "files";
-include ('menu.php'); ?>
 
 <div class="content">
 
@@ -322,7 +299,3 @@ include ('menu.php'); ?>
    </div>
   </li>
 </ul>
-
-</body>
-
-</html> 

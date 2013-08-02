@@ -1,0 +1,50 @@
+<script type="text/javascript">
+function showtip ($id) {
+  document.getElementById ($id).style.display = "block";
+}
+
+function hidetip ($id) {
+  document.getElementById ($id).style.display = "none";
+}
+</script>
+
+</head>
+<body>
+<div class="title">
+<div class="navbar">
+<div class="navline">
+  <span class="place">
+    <span class="tooltip" id="indextip">contact information and intro </span>
+  </span>
+  <a class={% if include.active == 'index' %} "navitem_active"
+           {% else %} "navitem" {% endif %}
+     href="/index.html"
+     onmouseover="showtip ('indextip');"
+     onmouseout="hidetip ('indextip');">Home </a>
+  <span class="place">
+    <span class="tooltip" id="cvtip">Curriculum Vitae </span>
+  </span>
+  <a class={% if include.active == 'cv' %} "navitem_active"
+           {% else %} "navitem" {% endif %}
+     href="/cv.html"
+     onmouseover="showtip ('cvtip');"
+     onmouseout="hidetip ('cvtip');">CV </a>
+  <span class="place">
+    <span class="tooltip" id="filestip">Page with my publications and their abstracts </span>
+  </span>
+  <a class={% if include.active == 'files' %} "navitem_active"
+           {% else %} "navitem" {% endif %}
+     href="/files.html"
+     onmouseover="showtip ('filestip');"
+     onmouseout="hidetip ('filestip');">Publications </a>
+  <span class="place">
+    <span class="tooltip" id="teachtip">Description of my Computability Theory course with links to complete lecture videos. </span>
+  </span>
+  <a class={% if include.active == 'teach' %} "navitem_active"
+           {% else %} "navitem" {% endif %}
+     href="/teach.html"
+     onmouseover="showtip ('teachtip');"
+     onmouseout="hidetip ('teachtip');">Computability Theory Course </a>
+</div>
+</div>
+</div>
