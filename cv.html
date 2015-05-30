@@ -12,8 +12,8 @@ title: Bart Kastermans' CV
 In 2012 I left a position as an Assistant Professor in Mathematics at the
 University of Colorado giving in to a longstanding interest in information
 technology.  Since then I have been working as a software developer and data
-scientist.  <!--I am interested in a position with a great team solving
-challenging practical problems.-->
+scientist.  I am interested in a position with a great team solving
+challenging practical problems.
 </blockquote>
 </div>
 
@@ -23,29 +23,35 @@ challenging practical problems.-->
 </h2>
 
 <p>
-Development experience: R, clojure, C++, SQL, python, php, HTML, CSS,
-javascript, C, and Java.
+
+I have used all standard platforms (Windows, OS X, and Linux) for extended
+periods of time; for the last years I have been on OS X.  I have used
+different development environments (e.g. Microsoft Visual Studio, Eclipse,
+RStudio, and vim/emacs with different plugins) for extended periods of time;
+for the last years I have been using mostly the RStudio and Emacs
+environments.
+
 </p>
 
 <p>
-Experience: Windows, OS X, and Linux.
+
+I have developed using many different languages.  From MIX (the language Knuth
+uses in The art of computer programming) in which I implemented Thompson NFA
+for regular expressions. html, css, php, and javascript for website
+development.  C++, Python and java for learning these languages a bit and
+playing with different technologies. C++ with SQL and web languages while I
+was at CoachR.  To mostly Clojure and R at Adgoji.
+
 </p>
 
 <p>
-<a href="https://github.com/kasterma">https://github.com/kasterma</a>
-contains some code I have written.  Example repositories:
-<dl>
-<dt>ai-class/particle:</dt>
-<dd>R implementation of a particle filter.</dd>
-<dt>vo_scores:</dt>
-<dd>PHP and MySQL code to fetch, store, and present up to date soccer scores.</dd>
-<dt>robotCar:</dt>
-<dd>Python code implementing A<sup>*</sup>-search for route planning
-  for a robot car</dd>
-<dt>mixregexp:</dt>
-<dd>MIX implementation of Thompson NFA for regular
-  expressions</dd>
-</dl>
+
+For my current work R is the most suited, supported by clojure and java for
+interacting with the hadoop stack.  To extract additional speed and
+interoperability I am looking into Rcpp to get C++ speeds and use of C++
+libraries while working in the interactive R environment.
+
+</p>
 
 </div>
 
@@ -57,12 +63,20 @@ contains some code I have written.  Example repositories:
 <p>
 Feb 2014&ndash;current: <b>Sr. Data Scientist</b>, AdGoji, Amsterdam.
 </p>
+<ul style="margin-top: -12px; margin-bottom: 20px;">
+<li>General goal: Analyse the data flowing through our system to improve targeting and
+  system health,</li>
+<li>improved the storage infrastructure for improved query speed and accuracy (querying
+  using cascalog, storing on S3 using pail and thrift),</li>
+<li>create an offline environment for approximate model testing (extract the data in
+  the right form from our data storage, and run different scenarios in R).</li>
+</ul>
 
 <p>
 Feb 2013 &ndash; Feb 2014: <b>Data Scientist</b>, AdGoji, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Analyse the data flowing through our system to improve targeting and
+<li>General goal: Analyse the data flowing through our system to improve targeting and
   system health,</li>
 <li>research and implement (in clojure using cascalog) different clustering
   algorithms,</li>
@@ -164,34 +178,5 @@ Mathematical Logic (with honors).
 
 </div>
 
-
-<div class="cvbox">
-<h2 class="cvtitle">
-  Short Research Description
-</h2>
-
-<p>
-In <emph>The Complexity of Maximal Cofinitary Groups</emph> I study how simple
-certain algebraic objects can be.  I prove that a standard
-construction of a Turing machine (computer program) is impossible, but
-that a Turing machine that gets an additional input as a hint can
-complete the construction.
-</p>
-
-<p>
-In <emph>Comparing Notions of Randomness</emph> we study formalizations of
-effective randomness.  These formalizations are analogous to
-definitions of pseudo random generator, replacing polynomial time
-computable by computable.
-</p>
-
-<p>
-In <emph>An Example of a Cofinitary Group in Isabelle/HOL</emph> I formalize a
-construction of a group.  That is, I take the usual proof as given,
-and using the Isabelle/HOL system formalize it into a proof that has
-been checked by computer.
-</p>
-
-</div>
 
 </div>
