@@ -21,7 +21,7 @@ body {
     margin : 10px -1px 10px -1px;
     padding : 4px 0 4px 30px;
     border : 1px solid #7A7A7A;
-    background-color : White; 
+    background-color : White;
 }
 
 /* navigation items */
@@ -125,6 +125,13 @@ a.navitem:hover {
 .hpboxeven {
 }
 
+.nowbox {
+    margin : 20px 20px 10px 20px;
+    padding : 30px;
+    border : 1px solid #7A7A7A;
+    background-color : 	#F5F5F5;
+}
+
 .papers {
 }
 
@@ -194,6 +201,12 @@ p.caption
     color : Grey;
 }
 
+.nowtitle {
+    margin-left : -20px;
+    margin-top : -25px;
+    margin-bottom : -5px;
+    color : Grey;
+}
 
 /* my picture on index.php */
 .mypic {
@@ -233,4 +246,3 @@ p.caption
     padding : 10px;
     background-color : 	#F5F5F5;
 }
-
