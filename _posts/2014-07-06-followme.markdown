@@ -1,0 +1,76 @@
+---
+layout: post
+title: Follow me on Twitter
+---
+
+There are posts on the internet that describe A/B testing of different
+phrases to get people to follow you on twitter<sup>&dagger;1</sup>.  I
+find it fascinating to read how effects of small changes can be quite
+beyond what I expected<sup>&dagger;2</sup>.
+
+In the May issue of the Communications of the ACM the editor's letter
+ends with "Follow me on Facebook, Google+, and Twitter".  In the
+context of the above I really hope at some point to get some data
+about his twitter followers over time and see how this affected the
+count.  I certainly experienced a bid surprise when I read it, and I
+can imagine that this surprise in other people lead to them following
+him.
+
+I did not follow him.  Not because I don't think his streams are
+interesting, also not because the surprise I described above was not
+only a pleasant surprise, but because I have recently deleted my
+Twitter and Facebook accounts.  I would do the same with my Google+
+account, but Google has for the moment made this hard since this
+account is tied in with an email address where I still occasionally
+receive an email.
+
+The question that his asking us to follow him everywhere brought into
+my mind most was "Why?"; why do you want us to follow you?
+
+These services certainly have a certain appeal.  The idea that you
+have people interested enough in what you have to say in 140
+characters or less is clearly attractive.  At various times I have
+tried to make an interesting stream as well.
+
+The effect of this efforts were always interesting.  Not to any
+readers I don't think, but to myself.  Occasionally, and mostly
+accidentally, I'll have an interesting observation.  When this would
+happen I would mull over how I could make a nice tweet out of this
+
+    @XXX follow you on twitter, why?
+
+    @XXX follow you on twitter, why do you care?
+
+    @XXX follow you on twitter, facebook, and google+; can't I just camp out at your house and see it all in real time?
+
+and so on.  Sometimes this resulted in what I still find an enjoyable
+tweet<sup>&dagger;3</sup>.
+
+    Caught speeding for the first time today, 30 mph over; like my mom used to say, if you do something, do it well.
+
+So the effect is that I really started practicing writing my
+observations in 140 characters or less, and in a funny way.  Turns
+out, on careful reflection, that this is not actually a skill I care
+about.  It is a skill I could become a lot better at then I am now,
+but, so what?
+
+When this observation lead me to decide that I was not going to be an
+active participant in these services; the next step was also easy.
+How much time does it take, and what do I get out of it by being a
+passive participant?  Occasionally a great link would show up on
+Twitter, occasionally I learned something cool/interesting/important
+had happened to people I know on facebook; but in the end the time it
+takes to keep up did not feel well spend.  And then the conclusion is
+easy, delete, delete, delete.
+
+------------------------------------------------------------
+
+&dagger;1: The one by Dustin Curtis I think of in particular seems to
+have been removed.
+
+&dagger;2: I did not think before completing the articles about what I
+expected, so this is a retroactive expectation and might be colored by
+the fact that I rather enjoy the surprise.
+
+&dagger;3: as I deleted my twitter account I am rewriting this from
+memory, so likely only somewhat similar to the original.

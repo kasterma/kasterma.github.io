@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Blog moved"
+date:   2016-12-10 15:00
+categories: jekyll update
+---
+
+I have moved my blog from zotskolf.nl to here (=kasterma.net).  As I did not
+want to put a lot of effort into this move, the articles that now looked
+uninteresting to me or had no longer existing references have been dropped.
+
+The syntax coloring in the older posts currently doesn't work; once I figure
+it out for a new post I may go back and fix it up though this has to be
+considered not very likely.
