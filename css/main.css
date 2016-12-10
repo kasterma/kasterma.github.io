@@ -211,6 +211,13 @@ p.caption
     color : Grey;
 }
 
+.blogdate {
+    margin-left : -12px;
+    margin-top : 7px;
+    margin-bottom : -5px;
+    color : Black;
+}
+
 .nowtitle {
     margin-left : -20px;
     margin-top : -25px;
