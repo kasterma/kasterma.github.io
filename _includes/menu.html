@@ -33,7 +33,7 @@ function hidetip ($id) {
     onmouseout="hidetip ('nowtip');">Now</a>
 
   <span class="place">
-    <span class="tooltip" id="blogtip">blog (in process of moving here)</span>
+    <span class="tooltip" id="blogtip">my blag</span>
   </span>
   <a class={% if active == 'blog' %} "navitem_active"
             {% else %} "navitem" {% endif %}
@@ -49,15 +49,6 @@ function hidetip ($id) {
      href="/cv.html"
      onmouseover="showtip ('cvtip');"
      onmouseout="hidetip ('cvtip');">CV </a>
-
-  <span class="place">
-    <span class="tooltip" id="filestip">Page with my publications and their abstracts </span>
-  </span>
-  <a class={% if active == 'files' %} "navitem_active"
-           {% else %} "navitem" {% endif %}
-     href="/files.html"
-     onmouseover="showtip ('filestip');"
-     onmouseout="hidetip ('filestip');">Publications </a>
 
   <span class="place">
     <span class="tooltip" id="teachtip">Description of my Computability Theory course with links to complete lecture videos. </span>
