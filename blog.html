@@ -8,13 +8,26 @@ title: Bart Kastermans' Blog, an additional opportunity to be hopelessly wrong.
 
 <div class="content">
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:7 %}
+{% if post.tags contains 'inprogress' %}
+<div class="blogbox">
+   <h2 class="blogtitle">{{ post.title }}</h2>
+   <h3 class="blogdate">Post is in progress, date determined later.  Note: URL will likely change.</h3>
+     <p>{{ post.excerpt }}</p>
+     <div class="more"><a href="{{ post.url }}">more</a></div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% for post in site.posts limit:7 %}
+{% unless post.tags contains 'inprogress' %}
 <div class="blogbox">
    <h2 class="blogtitle">{{ post.title }}</h2>
    <h3 class="blogdate">{{ post.date | date_to_string }}</h3>
      <p>{{ post.excerpt }}</p>
      <div class="more"><a href="{{ post.url }}">more</a></div>
 </div>
+{% endunless %}
 {% endfor %}
 
 
