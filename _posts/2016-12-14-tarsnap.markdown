@@ -1,0 +1,48 @@
+Trying to install tarsnap I run into some issues with not being able to find
+the right openssl libraries.  Here follows some information on the state of
+my system when it happened, and what solved it.
+
+    $ brew install openssl
+    Warning: openssl is a keg-only and another version is linked to opt.
+    Use `brew install --force` if you want to install this version
+
+The following is the preinstalled OS X system openssl
+
+    $ which openssl
+    /usr/bin/openssl
+
+This apparently doesn't come with the headers as needed to compile tarsnap.
+Since the correct version, with libraries, has been installed on the system, we
+only need to make configure aware of this.  In `/usr/opt/local` we find the
+`openssl` directory that contains the right `lib` and `include` directories.
+These are the versions installed by brew:
+
+    $ pwd
+    /usr/local/opt
+    $ ls -l
+    ...
+    lrwxr-xr-x 1 kasterma admin 24 Oct  9 10:13 openssl -> ../Cellar/openssl/1.0.2j
+    ...
+
+The following is the configure command with arguments to make it aware of the
+libraries in these locations.
+
+    ./configure CFLAGS="-I/usr/local/opt/openssl/include" LDFLAGS="-L/usr/local/opt/openssl/lib"
+
+After this, `make all` and `sudo make install` succeeded.
+
+The pages on tarsnap.com where to download and find the instructions for the
+compiling (which with the above addition work for me):
+
+- https://www.tarsnap.com/download.html
+- https://www.tarsnap.com/compiling.html
+
+Finally the basic usage of tarsnap for me is through the following shell script:
+
+    #!/usr/bin/env bash
+
+    set -x
+
+    tarsnap -c -f "dropbox-$(date +%Y-%m-%d)" /Users/kasterma/Dropbox/
+    tarsnap -c -f "documents-$(date +%Y-%m-%d)" /Users/kasterma/Documents/
+    tarsnap -c -f "org-$(date +%Y-%m-%d)" /Users/kasterma/org/
