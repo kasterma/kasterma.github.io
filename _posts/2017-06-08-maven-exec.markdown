@@ -131,3 +131,7 @@ to get the different sections to execute:
     [INFO] Finished at: 2017-07-08T14:38:37+02:00
     [INFO] Final Memory: 7M/155M
     [INFO] ------------------------------------------------------------------------
+
+One nice addition to the aboe is, if you want one of the goals to have a default
+execution where you don't have to give the execution id, then give it the execution
+id of `default-cli`.
