@@ -24,24 +24,6 @@ function hidetip ($id) {
      onmouseout="hidetip ('indextip');">Home </a>
 
   <span class="place">
-    <span class="tooltip" id="nowtip">current interests and focus</span>
-  </span>
-  <a class={% if active == 'now' %} "navitem_active"
-          {% else %} "navitem" {% endif %}
-    href="/now.html"
-    onmouseover="showtip ('nowtip');"
-    onmouseout="hidetip ('nowtip');">Now</a>
-
-  <span class="place">
-    <span class="tooltip" id="blogtip">my blag: an additional opportunity to be hopelessly wrong.</span>
-  </span>
-  <a class={% if active == 'blog' %} "navitem_active"
-            {% else %} "navitem" {% endif %}
-      href="/blog.html"
-      onmouseover="showtip ('blogtip');"
-      onmouseout="hidetip ('blogtip');">Blog</a>
-
-  <span class="place">
     <span class="tooltip" id="cvtip">Curriculum Vitae </span>
   </span>
   <a class={% if active == 'cv' %} "navitem_active"
