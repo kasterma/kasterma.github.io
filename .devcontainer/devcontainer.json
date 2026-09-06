@@ -1,0 +1,28 @@
+{
+  "name": "kasterma.github.io",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "containerEnv": {
+    "CLAUDE_CONFIG_DIR": "/home/ubuntu/.claude",
+    "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY": "1",
+    "PI_CODING_AGENT_DIR": "/home/ubuntu/.pi/agent",
+    "PI_TELEMETRY": "0"
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.config/fish,target=/home/ubuntu/.config/fish,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.config/git,target=/home/ubuntu/.config/git,type=bind,consistency=cached",
+    "source=claude-code-config-${devcontainerId},target=/home/ubuntu/.claude,type=volume",
+    "source=pi-agent-config-${devcontainerId},target=/home/ubuntu/.pi/agent,type=volume"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "fish"
+      }
+    }
+  },
+  "postCreateCommand": "bundle install",
+  "forwardPorts": [4000],
+  "remoteUser": "ubuntu"
+}
