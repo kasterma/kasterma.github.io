@@ -4,6 +4,36 @@ body {
     background-color : 	#F5F5F5;
 }
 
+/* page header (name, title, tags, contact line) */
+.pageheader {
+    text-align : center;
+    padding : 15px 10px 15px 10px;
+}
+
+.pageheader h1 {
+    margin : 0 0 5px 0;
+    color : #1F3864;
+    font-size : 2em;
+}
+
+.pageheader .headersubtitle {
+    margin : 0 0 3px 0;
+    color : #1F3864;
+    font-weight : bold;
+}
+
+.pageheader .headertags {
+    margin : 0 0 8px 0;
+    color : #1F3864;
+    font-weight : bold;
+}
+
+.pageheader .headercontact {
+    margin : 0;
+    color : #555555;
+    font-size : small;
+}
+
 /* navigation bar */
 .navbar {
     font-size : small;
@@ -83,14 +113,6 @@ a.navitem:hover {
     background-color : White;
     margin : -80px 4% 4% 4%;
     padding : 0px 0px 10px 0px;
-    border : 1px solid #7A7A7A;
-}
-
-/* extra padding */
-.content_ep {
-    background-color : White;
-    margin : -80px 4% 4% 4%;
-    padding : 20px 20px 20px 20px;
     border : 1px solid #7A7A7A;
 }
 
@@ -189,7 +211,7 @@ p.caption
     border : 1px solid #7A7A7A;
     padding-left : 15px;
     padding-right : 15px;
-    margin-bottom: 20px;
+    margin: 20px;
     line-height : 140%;
     background-color : 	#F5F5F5;
 }
