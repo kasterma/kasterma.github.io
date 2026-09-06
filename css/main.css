@@ -129,6 +129,7 @@ a.navitem:hover {
     padding : 30px;
     border : 1px solid #7A7A7A;
     background-color : 	#F5F5F5;
+    display : flow-root;
 }
 
 .hpboxx {
