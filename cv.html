@@ -10,70 +10,60 @@ title: Bart Kastermans' CV
 {% include pageheader.html %}
 
 <div class="cvbox">
-<blockquote>
-  In 2012 I left a position as an Assistant Professor in Mathematics
-  at the University of Colorado giving in to a longstanding interest
-  in information technology.  Since then I have been working as a
-  software engineer and data scientist, developing into the tech lead
-  of the team that has been developing the realtime streaming engine
-  at KPN.  I am interested in a position with a great team solving
-  challenging practical problems.
-</blockquote>
+<h2 class="cvtitle">
+  About Me
+</h2>
+<p>
+  Principal Engineer and mathematician with a PhD in Mathematics and
+  experience in academic research, software engineering, security engineering
+  and data science. Combines mathematical logic with practical experience
+  in modern computing infrastructure, encryption services, secrets management,
+  and real-time data processing. Translates abstract and complex problems
+  into secure, reliable and maintainable technical solutions. Brings
+  experience in research, software architecture, technical leadership,
+  scientific publication, and university teaching.
+</p>
 </div>
 
 <div class="cvbox">
 <h2 class="cvtitle">
-        Technologies
+  Core Skills
 </h2>
 
 <p>
-  I have used all standard platforms (Windows, OS X, and Linux) for
-  extended periods of time; for the last years I have mostly been on
-  OS X.  I have used different development environments
-  (e.g. Microsoft Visual Studio, Intellij, Eclipse, RStudio, and
-  vim/emacs with different plugins) for extended periods of time; for
-  the last years I have been using mostly the Intellij, RStudio, and
-  Emacs environments.
-</p>
-
-<p>
-  I have developed using many different languages.  Quite a few
-  languages for small projects, for instance MIX (the language Knuth
-  uses in The art of computer programming) in which I implemented
-  Thompson NFA for regular expressions, i86 assembler for some data
-  structures, and ML for some theorem proving.  For website
-  development html, css, php, and javascript.  C++, Python and java
-  for learning these languages a bit and playing with different
-  technologies.  C++ with SQL and web languages while I was at CoachR.
-  Lots of Clojure (using Cascalog for Hadoop jobs) and R at Adgoji,
-  doing analysis of big data (near a TB a day to permanent storage and
-  many thousands of events a second).  And currently Scala for flink
-  jobs, java for our custom components, and python and bash scripting
-  for management of the cluster.
+  Mathematical research | Technical problem solving | Mathematical logic | Security engineering |
+  Applied encryption |  Secrets management |  Software architecture |  Distributed systems |
+  Real-time data streaming | Technical leadership | Scientific writing and teaching
 </p>
 
 </div>
 
 <div class="cvbox">
 <h2 class="cvtitle">
-        Positions
+  Experience
 </h2>
 
 <p>
-  May 2022&ndash;current: <b>Principal Engineer, Ditigal Engine Platform</b>, KPN, Amsterdam.
+  May 2022&ndash;current: <b>Principal Engineer, Digital Engine Platform</b>, KPN, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-  <li>General goal: help digital engine teams.</li>
+  <li>Supported Digital Engine teams with platform, security, monitoring and reliability challenges.</li>
+  <li>Developed user-side monitoring solution that transfers timing metrics through Apache Kafka into central metrics storage.</li>
+  <li>Combined user-side data with platform metrics to identify service issues proactively.</li>
+  <li>On loan to strategy, architecture, and technology department for research on quantum computing.</li>
 </ul>
 
 <p>
 Apr 2020&ndash;May 2022: <b>Software Engineer, Digital Engine Platform</b>, KPN, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-  <li>General goal: help digital engine teams.</li>
-  <li>Lots of migrations from on-prem to the cloud.</li>
-  <li>Build an encryption service for applications to communicate over untrusted channels.</li>
+  <li>Supported Digital Engine teams with platform, security, monitoring, reliability challenges, and the migration to the cloud.</li>
+  <li>Migrated the HashiCorp Vault secrets platform from on-premises infrastructure to the cloud.</li>
+  <li>Build and integrated a Kubernetes encryption service with reliable daily key rotation for communication over untrusted channels.</li>
   <li>Build improved tooling to work with our secrets manager.</li>
+  <li>Improved technical documentation based on developer questions, reducing support demand, and strengthening trust in the documentation.</li>
+  <li>Initial design and implementation of the digital engine conductor for increased speed, flexiblity, and
+    accountability for the digital engine teams in managing access to e.g. Vault and Kafka.</li>
 </ul>
 
 
@@ -81,9 +71,9 @@ Apr 2020&ndash;May 2022: <b>Software Engineer, Digital Engine Platform</b>, KPN,
 Jan 2019&ndash;Apr 2020: <b>Security Engineer, Technium Security Team</b>, KPN, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-  <li>General goal: help teams within Technium improve their security.</li>
-  <li>Set up vault and the pipelines around it to improve the secrets management
-    in the Digital Engine.</li>
+  <li>Implemented an on-premises secrets management platform based on HashiCorp Vault.</li>
+  <li>Managed platform access through GitOps, allowing teams to request access through pull requests.</li>
+  <li>Developed monitoring, backup and recovery tooling that limited downtime and protected data during persistent-volume failures.</li>
 </ul>
 
 
@@ -91,17 +81,10 @@ Jan 2019&ndash;Apr 2020: <b>Security Engineer, Technium Security Team</b>, KPN, 
 Oct 2015&ndash;Jan 2019: <b>Data Scientist</b>, KPN, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-  <li>General goal: Architecture and implementation of the realtime
-    streaming engine, and help build a team to accompplish this,</li>
-  <li>Note: even though my official job title was data scientist, I
-    was operating as the tech lead of the engineering team,</li>
-  <li>plan the basic architecture of the streaming engine, and where
-    the engine fits in with the general digital architecture.</li>
-  <li>ensure compliance with privacy and security policies, and
-    working together with the privacy and security officers.</li>
-  <li>building basic flink jobs for streaming event handling.</li>
-  <li>making architecture choices to ensure maintainability of the
-    platform.</li>
+  <li>Helped establish the Streaming Engine Team and worked as its technical lead.</li>
+  <li>Designed the architecture for KPN’s real-time data streaming capabilities.</li>
+  <li>Developed Apache Flink jobs and proofs of concept for real-time event processing.</li>
+  <li>Worked with privacy and security officers to align the streaming platform with internal policies.</li>
 </ul>
 
 
@@ -109,11 +92,10 @@ Oct 2015&ndash;Jan 2019: <b>Data Scientist</b>, KPN, Amsterdam.
 Feb 2014&ndash;Sep 2015: <b>Sr. Data Scientist</b>, AdGoji, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>General goal: Analyse the data flowing through our system to improve targeting and
-  system health,</li>
-<li>improved the storage infrastructure for improved query speed and accuracy (querying
-  using cascalog, storing on S3 using pail and thrift),</li>
-<li>create an offline environment for approximate model testing (extract the data in
+<li>Analysed large-scale data streams to improve targeting and monitor system performance.</li>
+<li>Improved data storage infrastructure to support faster and more accurate queries.</li>
+<li>Worked with Cascalog, Amazon S3, Pail and Thrift on data volumes approaching one terabyte per day.</li>
+<li>Created an offline environment for approximate model testing (extract the data in
   the right form from our data storage, and run different scenarios in R).</li>
 </ul>
 
@@ -121,26 +103,19 @@ Feb 2014&ndash;Sep 2015: <b>Sr. Data Scientist</b>, AdGoji, Amsterdam.
 Feb 2013 &ndash; Feb 2014: <b>Data Scientist</b>, AdGoji, Amsterdam.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>General goal: Analyse the data flowing through our system to improve targeting and
-  system health,</li>
-<li>research and implement (in clojure using cascalog) different clustering
-  algorithms,</li>
-<li>research and implement (in clojure and R) different data modeling and
-  prediction algorithms.</li>
+<li>Researched and implemented clustering algorithms in Clojure and Cascalog.</li>
+<li>Researched and implemented data modeling and prediction algorithms in Clojure and R.</li>
+<li>Analysed thousands of events per second in a large-scale advertising environment.</li>
 </ul>
 
 <p>
 May 2012 &ndash; Jan 2013: <b>Software Developer</b>, CoachR Development, Dodewaard.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Functional design (in close cooperation with the customers describe the functional behavior of the software),</li>
-<li>technical design (setting up the global design of the software to have the
-structure in place for building it),</li>
-<li>programming the backend in C++ using the internally developed framework, MySQL and SQLite,</li>
-<li>improvements to the framework,</li>
-<li>frontend implementation with javascript.</li>
-<li>I also helped with further professionalization of the organization
-helping with company culture and application security.</li>
+<li>Translated customer requirements into functional and technical software designs.</li>
+<li>Developed backend applications in C++ using an internally developed framework.</li>
+<li>Implemented improvements to the internal framework,</li>
+<li>Worked with MySQL, SQLite and JavaScript and contributed to application security.</li>
 </ul>
 
 <p>
@@ -148,16 +123,10 @@ Jun 2009&ndash; Jun 2012: <b>Assistant Professor</b>, University of
 Colorado, Boulder.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Research in mathematical logic,</li>
-<li>teaching (e.g., undergraduate and graduate logic classes (model theory
-  and computability theory), undergraduate algebra and introduction to
-  proofs),</li>
-<li>co-organise the BLAST 2010 conference (BLAST: Boolean Algebras, Lattices,
-  Algebraic Logic, Quantum Logic, Universal Algebra, Set Theory, Set-theoretic
-  Topology and Point-free Topology),</li>
-<li>co-organise a logic seminar joint with neighboring universities,</li>
-<li>department administration, e.g. member of several committees including the
-   Graduate Committee.</li>
+<li>Conducted research in mathematical logic.</li>
+<li>Taught undergraduate and graduate courses in model theory, computability theory, algebra and mathematical proofs.</li>
+<li>Co-organised the BLAST 2010 conference and a joint logic seminar with neighbouring universities.</li>
+<li>Department administration: member of several committees including the Graduate Committee.</li>
 </ul>
 
 <p>
@@ -165,11 +134,8 @@ Sept 2006&ndash; May 2009: Van Vleck Visiting <b>Assistant
 Professor</b>, University of Wisconsin, Madison.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Research in mathematical logic,</li>
-<li>teaching (e.g., undergraduate and graduate logic classes (set theory
-  and computability theory), undergraduate linear algebra, introduction to
-  proofs, and calculus (a large lecture with 270 students and a group of
-  graduate students to do recitation sections)).</li>
+<li>Conducted research in mathematical logic.</li>
+<li>Taught set theory, computability theory, linear algebra, mathematical proofs and calculus.</li>
 </ul>
 
 <p>
@@ -177,8 +143,7 @@ Jan 2006 &ndash; May 2006: Graduate Student <b>Instructor</b>, University of
 Michigan, Ann Arbor.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Research in mathematical logic (finishing and defending my thesis),</li>
-<li>teaching (precalculus, and calculus at different levels).</li>
+<li>Conducted doctoral research and taught precalculus and calculus at several levels.</li>
 </ul>
 
 <p>
@@ -186,8 +151,8 @@ Michigan, Ann Arbor.
 Guangzhou, China.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Research in mathematical logic,</li>
-<li>teaching (one undergraduate and one graduate set theory class).</li>
+<li>Conducted research in mathematical logic</li>
+<li>Taught undergraduate and graduate courses in set theory.</li>
 </ul>
 
 <p>
@@ -195,8 +160,7 @@ Aug 2000 &ndash; Dec 2004: Graduate Student <b>Instructor</b>,
 University of Michigan, Ann Arbor.
 </p>
 <ul style="margin-top: -12px; margin-bottom: 20px;">
-<li>Research in mathematical logic,</li>
-<li>teaching (precalculus, and calculus at different levels).</li>
+<li>Conducted doctoral research and taught precalculus and calculus at several levels.</li>
 </ul>
 
 </div>
